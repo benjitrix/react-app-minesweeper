@@ -1,0 +1,42 @@
+.headingBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.helpBtn {
+  width: 100px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-right: 1vh;
+  box-shadow: 3px 3px rgb(211, 209, 209);
+}
+
+.helpBtn:hover {
+  cursor: pointer;
+  background-color: rgb(151, 180, 233);
+}
+
+.helpBtn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.helpBtn p {
+  font-weight: bold;
+  padding: 0;
+}
+
+.heading h1 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.heading h1 span {
+  font-size: 40px;
+  color: red;
+  text-decoration: underline;
+}
+
+.heading h2 {
+  margin: 0;
+}

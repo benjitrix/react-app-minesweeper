@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Project name: Capstone III - minesweeper game
+2. Description: A react app game comprising 6 (card) components in the form of tiles in a parent component - "WinGame". Cards can  change state from active to inactive to enable or disable the game. Restart or quit button options exist to restart or end the game. Help button is embedded to display the rules of the game.
+3. Table of Content:
+   i)   Project name
+   ii)  Description
+   iii) ToC
+   iv)  Installation
+   v)   How-to-use 
+4. Installation: Navigate to project directory - minesweeper. Run "npm install" to install node_modules. Run "npm start" to start game.
+5. How-to-use: 
+   i)    The goal is to get to a pot of gold on the underside 
+         of one of the cards. 
+   ii)   Click on a card to reveals its underside. Behind each 
+         card lies either a giggling monkey, an exploding dynamite, or a pot of gold.     
+   iii)  Finding the pot of gold will end the game with 
+         an animated block moving around the game board announcing a successful end.
+   iv)   Finding a dynamite will end the game and disable the 
+         cards with an animated block at the bottom of the board announcing an unsuccessful end.
+   v)    Finding a monkey allows further attempts.
+   vi)   Each play allows for a maximum of 3 attempts. A fourth 
+         attempt will end with an animated block at the top of the board announcing that maximum attempts has been reached.
+   vii)  "Try Again" button starts the game afresh.
+   viii) "Quit" button quits the game entirely.
+      
